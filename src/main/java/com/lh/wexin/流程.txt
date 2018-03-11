@@ -1,0 +1,4 @@
+1.首先获取openid：oYjMZ1CANpItOotcdBSBd-rSo5A4（已有）
+2获取AccessToken：https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid=APPID&secret=APPSECRET
+3.获取模板id：template_id（https://api.weixin.qq.com/cgi-bin/template/api_add_template?access_token=）
+4.发送模版消息：https://api.weixin.qq.com/cgi-bin/message/template/send?access_token=ACCESS_TOKEN
